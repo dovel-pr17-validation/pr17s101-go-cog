@@ -41,7 +41,7 @@ sentry = { version = "0.48", default-features = false, features = ["backtrace", 
 
 # Error handling
 thiserror = "2"
-anyhow = "1"
+anyhow = "1.0.104"
 
 # Python bindings
 pyo3 = { version = "0.27", features = ["abi3-py310"] }
